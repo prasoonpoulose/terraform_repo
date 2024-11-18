@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "linux" {
   count = "1"
   ami = var.ec2_ami
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
   associate_public_ip_address = true
   key_name= "linux_ec2"
   tags = {
