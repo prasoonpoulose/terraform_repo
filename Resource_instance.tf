@@ -9,7 +9,7 @@ resource "aws_instance" "linux" {
   associate_public_ip_address = true
   key_name                    = "windows_key"
   tags = {
-    Name = "Ansible"
+    Name = "Ansible_Host"
   }
   user_data = <<-EOF
     #!/bin/bash
