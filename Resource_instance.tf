@@ -7,7 +7,7 @@ resource "aws_instance" "linux" {
   ami                         = var.ec2_ami
   instance_type               = var.instance_type
   associate_public_ip_address = true
-  key_name                    = "linux_ec2"
+  key_name                    = "aws_ec2"
   tags = {
     Name = "Ansible"
   }
