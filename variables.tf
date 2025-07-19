@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "ec2_ami" {
-  default = "ami-0d534d05f2906442e"
+  default = "ami-0841b1152f02fa85e"
 }
 
 variable "instance_type" {
