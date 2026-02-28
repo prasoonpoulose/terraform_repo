@@ -5,5 +5,5 @@ terraform {
     region         = "eu-west-2"
     dynamodb_table = "terraform-state-table-zetatech"
     encrypt        = true
-  }
+  } 
 }
